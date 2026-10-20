@@ -1,0 +1,38 @@
+{
+  "manifest_version": "0.3",
+  "name": "godot-mcp-assistant",
+  "display_name": "Godot MCP Assistant",
+  "version": "1.1.0",
+  "description": "Create, inspect, control, and capture Godot 4 projects through MCP tools.",
+  "author": {
+    "name": "Godot MCP Assistant contributors"
+  },
+  "license": "MIT",
+  "keywords": [
+    "godot",
+    "game-development",
+    "mcp"
+  ],
+  "tools_generated": true,
+  "server": {
+    "type": "node",
+    "entry_point": "index.js",
+    "mcp_config": {
+      "command": "node",
+      "args": [
+        "${__dirname}/index.js"
+      ]
+    }
+  },
+  "compatibility": {
+    "claude_desktop": ">=1.0.0",
+    "platforms": [
+      "darwin",
+      "win32",
+      "linux"
+    ],
+    "runtimes": {
+      "node": ">=18"
+    }
+  }
+}

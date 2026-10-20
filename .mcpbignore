@@ -1,0 +1,10 @@
+# Local editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated bundles and development output
+*.mcpb
+coverage/
+.env*
